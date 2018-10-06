@@ -1,0 +1,4 @@
+*.crt
+*.crl
+*.key
+*.pem

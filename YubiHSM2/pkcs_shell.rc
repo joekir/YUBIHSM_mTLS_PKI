@@ -1,0 +1,3 @@
+export YUBIHSM_PKCS11_CONF=./pkcs11/yubihsm_pkcs11.conf
+export YUBIHSM_PKCS11_MODULE=/usr/lib/x86_64-linux-gnu/pkcs11/yubihsm_pkcs11.so
+alias yhsm2-tool='pkcs11-tool --module ${YUBIHSM_PKCS11_MODULE}'

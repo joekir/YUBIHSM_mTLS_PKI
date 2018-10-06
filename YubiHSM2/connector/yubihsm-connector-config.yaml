@@ -1,0 +1,4 @@
+listen: 127.0.0.1:47589
+seccomp: false
+serial: <YOUR SERIAL NUMBER> 
+syslog: false
