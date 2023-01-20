@@ -13,7 +13,7 @@ The accompanying blog post for this repo on [josephkirwin.com](https://www.josep
 ## Design notes
 
 - The ROOT CA key will be created in the [YubiHSM](https://www.yubico.com/products/yubihsm/) and never leave the HSM
-- The ROOT and Intermediate's [OSCP](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) responder will run on a different box(es) that will be updated only if there is an intermediate certificate breach
+- The ROOT and Intermediate's [OCSP](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) responder will run on a different box(es) that will be updated only if there is an intermediate certificate breach
 
 ## Setup
 
