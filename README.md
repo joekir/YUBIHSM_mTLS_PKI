@@ -1,4 +1,4 @@
-# Creating a mTLS PKI backed by s YubicoHSM
+# Creating a mTLS PKI backed by a YubicoHSM
 
 From my experience it's a popular security requirement to stipulate backend traffic use mutual-TLS (doesn't actually exist as a concept, it's just TLS with a client certificate..) except that usually devolves to self-signed certs, hence doesn't quite have the revocation benefits of a real PKI.
 
